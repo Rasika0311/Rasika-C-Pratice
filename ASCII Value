@@ -1,0 +1,12 @@
+ASCII Value
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    char n;
+    cin >> n;
+    int r= (int)n;
+    cout << r;
+    return 0;
+}
