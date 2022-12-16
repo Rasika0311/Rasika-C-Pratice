@@ -1,0 +1,12 @@
+float input
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    float g;
+    cin >> g;
+    cout << g;
+    return 0;
+}
