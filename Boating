@@ -1,0 +1,25 @@
+Boating
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n,e,k;
+    cin>>n>>e>>k;
+    if(n>(e*75) && n>(k*50) )
+    {
+        if(n>=(e*75)+(k*50))
+        {
+            cout<< "Boat is Stable";
+        }
+        else
+        {
+            cout<< "Boat will drown";
+        }
+    }
+    else
+    {
+        cout<<"Boat will drown";
+    }
+    return 0;
+}
