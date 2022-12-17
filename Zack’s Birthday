@@ -1,0 +1,51 @@
+Zack’s Birthday
+
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main()
+{
+    int n;
+    float amt,a;
+    cin>>amt>>n;
+    switch(n)
+    {
+        case 1:
+        a=(amt-(amt*20)/100);
+        printf("Zack's father needs to pay Rs. %.2f",a);
+        break;
+        case 3:
+        a=(amt-(amt*10)/100);
+        printf("Zack's father needs to pay Rs. %.2f",a);
+        break;
+        case 4:
+        a=(amt-(amt*10)/100);
+        printf("Zack's father needs to pay Rs. %.2f",a);
+        break;
+        case 6:
+        a=(amt-(amt*75)/100);
+        printf("Zack's father needs to pay Rs. %.2f",a);
+        break;
+        case 7:
+        a=(amt-(amt*75)/100);
+        printf("Zack's father needs to pay Rs. %.2f",a);
+        break;
+        case 11:
+        a=(amt-(amt*30)/100);
+        printf("Zack's father needs to pay Rs. %.2f",a);
+        break;
+        case 10:
+        a=(amt-(amt*30)/100);
+        printf("Zack's father needs to pay Rs. %.2f",a);
+        break;
+        case 12:
+        a=(amt-(amt*35)/100);
+        printf("Zack's father needs to pay Rs. %.2f",a);
+        break;
+        default:
+        printf("Zack's father needs to pay Rs. %.2f",amt);
+        break;
+        
+    }
+    return 0;
+}
