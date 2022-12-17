@@ -1,0 +1,30 @@
+Abraham’s Bank Account
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,c;
+    cin>>a>>b>>c;
+    switch(b)
+    {
+        case 1:
+        a+=c;
+        cout<<a;
+        break;
+        case 2:
+        a-=c;
+        if(a<c)
+        {
+            cout<<"Insufficient Balance";
+        }
+        else
+        {
+           cout<<a;
+        }
+        break;
+        default:
+        cout<<"Invalid Input";
+    }
+    return 0;
+}
