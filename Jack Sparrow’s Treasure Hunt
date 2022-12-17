@@ -1,0 +1,14 @@
+Jack Sparrow’s Treasure Hunt
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a;
+    cin>>a;
+    int n,e;
+    n=a/1000;
+    e=a%10;
+    cout<<(n+e);
+    return 0;
+}
