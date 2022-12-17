@@ -1,0 +1,30 @@
+Bike Race
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n,e,k,h;
+    cin>>n>>e>>k>>h;
+    int a,b,c;
+    a=n%h;
+    b=e%h;
+    c=k%h;
+    if(a==0)
+    {
+        cout<<"Bike 1 goes into road A";
+    }
+    else if(b==0)
+    {
+        cout<<"Bike 1 goes into road B";
+    }
+    else if(c==0)
+    {
+        cout<<"Bike 1 goes into road C";
+    }
+    else
+    { 
+        cout<<"No path exist";
+    }
+    return 0;
+}
