@@ -1,0 +1,25 @@
+BMI
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    float a,b;
+    cin>>a>>b;
+    float x,y;
+    x=b/100;
+    y=a/(x*x);
+    if(y<18.5)
+    {
+        cout<<"You are underweight. Have an apple daily";
+    }
+    else if(y>18.5 && y<24.9)
+    {
+        cout<<"You are normal. Go walking daily and maintain it";
+    }
+    else 
+    {
+        cout<< "You are obese. Go to doctor";
+    }
+    return 0;
+}
