@@ -1,0 +1,17 @@
+Shilpa and Rabina’s Puzzles.
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int h,m,s,x,y;
+    cin>>h>>m>>s;
+    x=s/60;
+    y=m+x;
+    s=s%60;
+    cout<<"Total Number of hours is "<<" "<<h<<endl;
+    cout<<"Total Number of minutes is "<<" "<<y<<endl;
+    cout<<"Total Number of seconds is "<<" "<<s<<endl;
+    return 0;
+    
+}
