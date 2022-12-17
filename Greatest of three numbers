@@ -1,0 +1,22 @@
+Greatest of three numbers
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n,a,v;
+    cin>>n>>a>>v;
+    if(n>a && n>v)
+    {
+        cout<<n<<"\t"<<"is greater";
+    }
+    else if(a>n && a>v)
+    {
+        cout<<a<<"\t"<<"is greater";
+    }
+    else
+    {
+         cout<<v<<"\t"<<"is greater";
+    }
+    return 0;
+}
