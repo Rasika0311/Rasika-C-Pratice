@@ -1,0 +1,32 @@
+Electricity Bill Hike
+
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main()
+{
+    int a;
+    cin>>a;
+    float w,x,y,z;
+    w=a*0.5;
+    x=(a*0.65)+100;
+    y=(a*0.80)+200;
+    z=(a*1.25)+425;
+    if(a<=200)
+    {
+        cout<<"Rs."<< ceil(w);
+    }
+    else if(a<=400 && a>200)
+    {
+        cout<<"Rs."<< ceil(x);
+    }
+    else if(a<=600 && a>400)
+    {
+        cout<<"Rs."<< ceil(y);
+    }
+    else if(a>600)
+    {
+        cout<<"Rs."<< ceil(z);
+    }
+    return 0;
+}
