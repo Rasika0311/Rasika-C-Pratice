@@ -1,0 +1,15 @@
+The Chronicles of Narnia
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int g;
+    cin>>g;
+    int p,r,s;
+    p=g/10;
+    r=g%10;
+    s=p+r;
+    cout<<s;
+    return 0;
+}
