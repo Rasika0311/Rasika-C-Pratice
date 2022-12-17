@@ -1,0 +1,20 @@
+Business Proposal
+
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main()
+{
+    int p,r,n;
+    float a,b,c,d;
+    cin>>p>>r>>n;
+    a=(p*r*n)/100;
+    printf("\n%.2f",a);
+    b=(p+a);
+    printf("\n%.2f",b);
+    c=(0.02*a);
+    printf("\n%.2f",c);
+    d=(a+p-c);
+    printf("\n%.2f",d);
+    return 0;
+}
