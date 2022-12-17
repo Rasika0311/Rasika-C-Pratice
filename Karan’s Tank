@@ -1,0 +1,25 @@
+Karan’s Tank
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    float a,b,c,e,f,q;
+    float d;
+    cin>>a>>b>>c>>d;
+    e=2*3.14*a*b;
+    f=c*d;
+    if(e<f)
+    {
+        cout<<"The tank can be filled within"<<endl;
+        printf("%.1f",d);
+        cout<<"\t"<<"hours";
+    }
+    else
+    {
+        cout<<"The tank cannot be filled within"<<endl;
+        printf("%.1f",d);
+        cout<<"\t"<<"hours";
+    }
+    return 0;
+}
