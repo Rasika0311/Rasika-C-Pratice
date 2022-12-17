@@ -1,0 +1,22 @@
+Karthi’s Paintings
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,c,d,e,f;
+    cin>>a>>b>>c>>d>>e>>f;
+    if((a*b)  == (c*d)+(e*f))
+    {
+        cout<<"Karthi can fix both paintings";
+    }
+    else if((a*b)  > (c*d)+(e*f))
+    {
+        cout<<"Karthi can fix both painting";
+    }
+    else
+    {
+        cout<<"Karthi cannot fix both painting";
+    }
+    return 0;
+}
