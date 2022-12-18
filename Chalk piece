@@ -1,0 +1,16 @@
+Chalk piece
+
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+    int a,d,e;
+    float b,c;
+    cin>>a;
+    b=1/sqrt(a);
+    c=b*a;
+    d=c+a;
+    e=d+1;
+    cout<<e;
+}
