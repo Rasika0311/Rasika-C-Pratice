@@ -1,0 +1,30 @@
+Mark grade
+
+#include<iostream>
+using namespace std;
+int main()
+{
+	int eng,mat,sci,tot,avg;
+	cout<<"Enter three marks";
+	cin>>eng>>mat>>sci;
+	tot=eng+mat+sci;
+	avg=tot/3;
+	cout<<"total = "<<tot<<endl;
+	cout<<"average = "<<avg<<endl;
+	if(eng<70 || mat<70 || sci<70)
+	{
+	printf("fail");
+}
+else
+{
+		
+	if(avg>=90 && avg<=100 )
+	cout<<"O grade";
+	else if( avg>=80 && avg<90)
+	cout<<"A grade";
+	else if( avg>=70 && avg<80)
+	cout<<"B grade";
+}
+
+	return 0;
+}
