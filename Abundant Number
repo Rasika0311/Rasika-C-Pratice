@@ -1,0 +1,25 @@
+Abundant Number
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int num,sum=0;
+    cin>>num; //6
+    for(int i=1;i<num;i++) // 01 2  3 4 5
+    {
+        if(num%i==0) // 1 2 3
+       
+            sum+=i; // 6
+       
+    }
+    if(sum>num)
+    {
+        cout<<"Abundant number";
+    }
+    else
+    {
+        cout<<"Not Abundant number";
+    }
+   
+}
