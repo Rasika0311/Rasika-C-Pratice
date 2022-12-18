@@ -1,0 +1,24 @@
+Series IX
+
+#include<iostream>
+using namespace std;
+int main()
+{
+     int a,i,n,b;
+     cin>>n;
+     for(i=1;i<=n;i++)
+     {
+         
+         if(i%2==0)
+         {
+             a=i*i;
+             cout<<a <<" ";
+         }
+         else
+         {
+             b=i*i*i;
+             cout<<b <<" ";
+         }
+     }
+        return 0;
+}
