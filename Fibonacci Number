@@ -1,0 +1,24 @@
+Fibonacci Number
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n3,i,a,n1=1,n2=1;
+    cin>>a;
+    for(i=1;i<=a;i++)//1023
+    {
+        n3=n1+n2;
+        n1=n2;
+        n2=n3;
+    }
+        if(a==n3)
+        {
+            cout<<"Fibonacci number";
+        }
+        else
+        {
+            cout<<"Not Fibonacci number";
+        }
+    
+}
