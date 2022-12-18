@@ -1,0 +1,38 @@
+Lucky String
+
+#include<iostream>
+#include<cmath>
+using namespace std;
+int lucky(string str)
+{
+    int a[100];
+    int sum=0;
+    int i;
+    for(i=0;i<str.length();i++)
+    {
+        a[i]=str[i];
+        sum+=a[i];
+    }
+    if(sum%2==0)
+    {
+        return 1;
+    }
+    else
+    {
+        return 0;
+    }
+}
+int main()
+{
+    string str;
+    getline(cin,str);
+    if(lucky(str)==1)
+    {
+        cout<<str<<" "<<"is lucky";
+    }
+    else
+    {
+        cout<<str<<" "<<"is not lucky";
+    }
+    
+}
