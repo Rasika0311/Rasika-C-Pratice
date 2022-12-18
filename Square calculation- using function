@@ -1,0 +1,18 @@
+Square calculation- using function
+
+#include<iostream>
+using namespace std;
+int main()
+{
+   int a,n;
+   do
+   {
+       cin>>a;
+       n=a*a;
+       
+   }while(a!=(-1));
+   {
+       cout<<n<<endl;
+   }
+}
+  
