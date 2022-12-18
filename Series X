@@ -1,0 +1,17 @@
+Series X
+
+#include<iostream>
+using namespace std;
+int main()
+{
+        int n,n1=0,n2,i;
+        cin>>n;
+        for(i=0;i<n;i++)
+        {
+            n2=n1+2*i;
+            cout<<n2<<" ";
+            n1=n2;
+           
+        }
+        return 0;
+}
