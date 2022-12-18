@@ -1,0 +1,23 @@
+Addition of two arrays
+
+#include <iostream>
+using namespace std;
+int main ()
+{
+    int a,i;
+    cin>>a;
+    int n[a],m[a],sum[a];
+    for(i=0;i<a;i++)
+    {
+        cin>>n[i];
+    }
+    for(i=0;i<a;i++)
+    {
+        cin>>m[i];
+    }
+    for(i=0;i<a;i++)
+    {
+        sum[a]=n[i]+m[i];
+        cout<<sum[a]<<" ";
+    }
+}
