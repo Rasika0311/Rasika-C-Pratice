@@ -1,0 +1,15 @@
+Dollars & Cents
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,c,d,p,q,r,s;
+    cin>>a>>b>>c>>d;
+    p=b+d;
+    q=p/100;
+    r=p%100;
+    s=a+c+q;
+    cout<<s<<endl<<r;
+    return 0;
+}
