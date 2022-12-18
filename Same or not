@@ -1,0 +1,26 @@
+Same or not
+
+#include<iostream>
+using namespace std;
+int main()
+{
+     int a,b,i,j;
+     cin>>a>>b;
+     int n[a],m[b];
+     for(i=0;i<a;i++)
+     {
+         cin>>n[i];
+     }
+     for(i=0;i<b;i++)
+     {
+         cin>>m[j];
+     }
+     if(n[i]==m[j])
+     {
+         cout<<"Same";
+     }
+     else
+     {
+         cout<<"Not Same";
+     }
+}
