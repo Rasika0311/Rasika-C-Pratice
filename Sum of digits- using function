@@ -1,0 +1,20 @@
+Sum of digits- using function
+
+#include<iostream>
+using namespace std;
+int sum(int a)
+{
+    int x,y,z,b,c;
+    c=a/100;
+    x=a/10;
+    y=x%10;
+    z=a%10;
+    b=c+y+z;
+    return b;
+}
+int main()
+{
+    int a;
+    cin>>a;
+    cout<<sum(a);
+}
