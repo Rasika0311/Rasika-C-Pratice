@@ -1,0 +1,19 @@
+Sum of array elements
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,i,add=0;
+    cin>>a;
+    int n[a];
+    for(i=0;i<a;i++)
+    {
+        cin>>n[i];
+    }
+    for(i=0;i<a;i++)
+    {
+        add=add+n[i];
+    }
+    cout<<add;
+}
