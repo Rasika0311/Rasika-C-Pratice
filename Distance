@@ -1,0 +1,21 @@
+Distance
+
+#include<iostream>
+#include<iomanip>
+#include<cmath>
+using namespace std;
+float distance(int x1,int y1,int x2,int y2)
+{
+    float a,b,d;
+    a=(x2-x1)*(x2-x1);
+    b=(y2-y1)*(y2-y1);
+    d=sqrt(a+b);
+    return d;
+}
+int main()
+{
+    int x1,y1,x2,y2;
+    cin>>x1>>y1>>x2>>y2;
+    printf("Distance between the 2 points is %.2f",distance(x1,y1,x2,y2));
+    
+}
