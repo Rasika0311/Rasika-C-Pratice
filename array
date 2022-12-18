@@ -1,0 +1,29 @@
+array
+
+#include<stdio.h>
+int main()
+{
+	int a,i,b[100],c,j;
+	scanf("%d",&a);
+	for(i=1;i<=a;i++)
+	{
+		scanf("%d",&b[i]);
+	}
+	for(i=1;i<=a;i++)
+	{
+		for(j=i+1;j<=a;j++)
+		{
+			if(b[j]<b[i])
+			{
+				c=b[j];
+				b[j]=b[i];
+				b[i]=c;
+				
+			}
+		}
+	}
+	for(i=1;i<=a;i++)
+	{
+		printf("%d\n",b[i]);
+	}
+}
